@@ -1,0 +1,26 @@
+{
+  "name": "selenium-training",
+  "version": "1.0.0",
+  "description": "Basic Selenium training base in Selenium guidebook Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test:unit": "mocha",
+    "lint":"eslint '**/*.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "chromedriver": "^92.0.0",
+    "geckodriver": "^2.0.1",
+    "selenium-webdriver": "^4.0.0-beta.4"
+  },
+  "mocha": {
+    "timeout": 30000
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.31.0",
+    "mocha": "^9.0.3"
+  }
+}
